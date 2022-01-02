@@ -31,8 +31,8 @@ export function Header(){
           <nav className={isActive ? 'active' : ''}>
             <NavHashLink smooth to="#home" onClick={closeMenu}>Home</NavHashLink>
             <NavHashLink smooth to="#aboutMe" onClick={closeMenu}>About Me</NavHashLink>
-            <NavHashLink smooth to="#portfolio" onClick={closeMenu}>Portfolio</NavHashLink>
             <NavHashLink smooth to="#experience" onClick={closeMenu}>Experience</NavHashLink>
+            <NavHashLink smooth to="#portfolio" onClick={closeMenu}>Portfolio</NavHashLink> 
             <NavHashLink smooth to="#contact" onClick={closeMenu}>Contact</NavHashLink>
             <a href={CV} download className="button">CV</a>
           </nav>
